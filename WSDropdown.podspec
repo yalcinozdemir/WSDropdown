@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/yalcinozdemir/WSDropdown"
-  spec.screenshots  = "www.github.com/yalcinozdemir/WSDropdown/screenshots.gif"
+  spec.screenshots  = "https://github.com/yalcinozdemir/WSDropdown/blob/master/screenshots.gif?raw=true"
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "yalcinozdemir" => "m.yalcinozdemir@gmail.com" }
