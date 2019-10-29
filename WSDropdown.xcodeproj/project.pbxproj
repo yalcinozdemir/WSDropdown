@@ -9,12 +9,40 @@
 /* Begin PBXBuildFile section */
 		AF60574F2368DBAE00986BA7 /* WSDropdown.h in Headers */ = {isa = PBXBuildFile; fileRef = AF60574D2368DBAE00986BA7 /* WSDropdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF60575C2368DC0300986BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60575B2368DC0300986BA7 /* AppDelegate.swift */; };
-		AF60575E2368DC0300986BA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60575D2368DC0300986BA7 /* SceneDelegate.swift */; };
 		AF6057602368DC0300986BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60575F2368DC0300986BA7 /* ViewController.swift */; };
 		AF6057632368DC0300986BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6057612368DC0300986BA7 /* Main.storyboard */; };
 		AF6057652368DC0700986BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6057642368DC0700986BA7 /* Assets.xcassets */; };
 		AF6057682368DC0700986BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6057662368DC0700986BA7 /* LaunchScreen.storyboard */; };
+		AF60576E2368DF4600986BA7 /* WSDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60576D2368DF4600986BA7 /* WSDropdown.swift */; };
+		AF6057702368DF7300986BA7 /* WSDropdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60576F2368DF7300986BA7 /* WSDropdownButton.swift */; };
+		AF6057752368E70A00986BA7 /* WSDropdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF60574A2368DBAE00986BA7 /* WSDropdown.framework */; };
+		AF6057762368E70A00986BA7 /* WSDropdown.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF60574A2368DBAE00986BA7 /* WSDropdown.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF60577B2368E77F00986BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF60577A2368E77F00986BA7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF6057772368E70A00986BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6057412368DBAE00986BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6057492368DBAE00986BA7;
+			remoteInfo = WSDropdown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF6057792368E70A00986BA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AF6057762368E70A00986BA7 /* WSDropdown.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF60574A2368DBAE00986BA7 /* WSDropdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSDropdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,12 +50,14 @@
 		AF60574E2368DBAE00986BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF6057592368DC0300986BA7 /* WSDropdownExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSDropdownExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF60575B2368DC0300986BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF60575D2368DC0300986BA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF60575F2368DC0300986BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF6057622368DC0300986BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF6057642368DC0700986BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6057672368DC0700986BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6057692368DC0700986BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF60576D2368DF4600986BA7 /* WSDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSDropdown.swift; sourceTree = "<group>"; };
+		AF60576F2368DF7300986BA7 /* WSDropdownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSDropdownButton.swift; sourceTree = "<group>"; };
+		AF60577A2368E77F00986BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6057752368E70A00986BA7 /* WSDropdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +85,7 @@
 				AF60574C2368DBAE00986BA7 /* WSDropdown */,
 				AF60575A2368DC0300986BA7 /* WSDropdownExample */,
 				AF60574B2368DBAE00986BA7 /* Products */,
+				AF6057742368E70A00986BA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +103,9 @@
 			children = (
 				AF60574D2368DBAE00986BA7 /* WSDropdown.h */,
 				AF60574E2368DBAE00986BA7 /* Info.plist */,
+				AF60576D2368DF4600986BA7 /* WSDropdown.swift */,
+				AF60576F2368DF7300986BA7 /* WSDropdownButton.swift */,
+				AF60577A2368E77F00986BA7 /* Assets.xcassets */,
 			);
 			path = WSDropdown;
 			sourceTree = "<group>";
@@ -79,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				AF60575B2368DC0300986BA7 /* AppDelegate.swift */,
-				AF60575D2368DC0300986BA7 /* SceneDelegate.swift */,
 				AF60575F2368DC0300986BA7 /* ViewController.swift */,
 				AF6057612368DC0300986BA7 /* Main.storyboard */,
 				AF6057642368DC0700986BA7 /* Assets.xcassets */,
@@ -87,6 +121,13 @@
 				AF6057692368DC0700986BA7 /* Info.plist */,
 			);
 			path = WSDropdownExample;
+			sourceTree = "<group>";
+		};
+		AF6057742368E70A00986BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,10 +169,12 @@
 				AF6057552368DC0300986BA7 /* Sources */,
 				AF6057562368DC0300986BA7 /* Frameworks */,
 				AF6057572368DC0300986BA7 /* Resources */,
+				AF6057792368E70A00986BA7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AF6057782368E70A00986BA7 /* PBXTargetDependency */,
 			);
 			name = WSDropdownExample;
 			productName = WSDropdownExample;
@@ -150,6 +193,7 @@
 				TargetAttributes = {
 					AF6057492368DBAE00986BA7 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					AF6057582368DC0300986BA7 = {
 						CreatedOnToolsVersion = 11.1;
@@ -180,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF60577B2368E77F00986BA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6057702368DF7300986BA7 /* WSDropdownButton.swift in Sources */,
+				AF60576E2368DF4600986BA7 /* WSDropdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,11 +256,18 @@
 			files = (
 				AF6057602368DC0300986BA7 /* ViewController.swift in Sources */,
 				AF60575C2368DC0300986BA7 /* AppDelegate.swift in Sources */,
-				AF60575E2368DC0300986BA7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6057782368E70A00986BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6057492368DBAE00986BA7 /* WSDropdown */;
+			targetProxy = AF6057772368E70A00986BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AF6057612368DC0300986BA7 /* Main.storyboard */ = {
@@ -358,6 +412,7 @@
 		AF6057532368DBAE00986BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GYZJYS7XUG;
@@ -374,6 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.WSDropdown;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +438,7 @@
 		AF6057542368DBAE00986BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GYZJYS7XUG;
