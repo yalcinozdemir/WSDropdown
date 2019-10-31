@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WSDropdown"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "A better way to present multiple selections."
 
   # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "yalcinozdemir" => "m.yalcinozdemir@gmail.com" }
 
-  spec.ios.deployment_target = "13.1"
+  spec.ios.deployment_target = "9.0"
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/yalcinozdemir/WSDropdown.git", :tag => "#{spec.version}" }
