@@ -22,7 +22,7 @@ public final class WSDropdownButton: UIView, WSDropdownDelegate {
         }
     }
     public var delegate: WSDropdownButtonDelegate!
-    let bundle = Bundle(for: type(of: self))
+    let bundle = Bundle(for: WSDropdownButton.self)
 
     override init(frame: CGRect) {
         super.init(frame: frame)
