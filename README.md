@@ -18,7 +18,7 @@ Alternativaly, download source files and import into your project directly.
 
 Take a look at the WSDropdownExample project to learn how the dropdown can be implemented.
 
-*WSDropdownButton* is a button to be place on your view to activate the dropdown.
+*WSDropdownButton* is a button to be placed on your view to activate the dropdown.
 
 ```swift
 
